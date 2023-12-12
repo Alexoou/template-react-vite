@@ -1,0 +1,33 @@
+:root {
+  --redColor: #E55760;
+    --beigeColor: #FFE4D0;
+    --blackColor: #211C19;
+    --ombreColor: #ad9d90;
+    --texteColor: #6C5645;
+
+    /*sizing*/
+    --xs-sizing: 8px;
+    --s-sizing: 16px;
+    --m-sizing: 24px;
+    --l-sizing: 32px;
+    --xl-sizing: 64px;
+    --xxl-sizing: 120px;
+
+    --paddingPage: 6vw;
+    --spacer: 10vw;
+}
+
+@font-face {
+  font-family: "Geist";
+  src: url(..//src/assets/fonts/GeistVariableVF.ttf);
+}
+
+
+h1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;;
+  font-family: Geist;
+}
